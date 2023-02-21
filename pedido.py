@@ -2,11 +2,13 @@
 import tkinter
 from tkinter import messagebox
 
+#iniciar biblioteca
 root = tkinter.Tk()
 root.withdraw()
 
 count = 0
 
+#messagebox disponibiliza uma variedade de widgets
 msg_box = messagebox.showwarning("ALERTA", "VOCÊ FOI HACKEADO")
 
 if msg_box =='ok':
@@ -25,4 +27,5 @@ while msg_box == 'no':
 if msg_box == 'yes':
     msg_box == messagebox.showinfo("EXCELENTE ESCOLHA!", "CONTRATO RENOVADO \n Validade: NUNCA")
     msg_box == messagebox.showinfo("VOCÊ É O AMOR DA MINHA VIDA!", "OBRIGADA POR ME FAZER TÃO FELIZ \n TE AMO... COM AMOR, XAYAHZINHA <3")
+    
     
